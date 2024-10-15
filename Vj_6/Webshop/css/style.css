@@ -1,0 +1,142 @@
+body {
+    background-color: rgb(172, 172, 172);
+}
+
+nav {
+    position: fixed;
+    overflow: hidden;
+    top: 0;
+    width: 100%;
+    background-color: #A59C9A;
+    z-index: 1;
+}
+
+nav a {
+    float: left;
+    display: block;
+    text-align: center;
+    color: rgb(245, 239, 238);
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+nav a:hover {
+    background-color: #555;
+    color: white;
+}
+
+nav a:active {
+    background-color: red;
+    color: white;
+}
+
+#header {
+    background-image: url("../images/bmw_background2.jpg");
+    background-size: cover;
+    height: 300px;
+}
+
+.center-text {
+    position: absolute;
+    top: 8%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: rgb(255, 255, 255);
+    font-family: Regular 400 Italic;
+}
+
+body,
+html {
+    background-color: #d4c5c2, ;
+}
+
+
+body,
+html {
+    font-family: Arial, sans-serif;
+}
+
+* {
+    font-size: 16px;
+}
+
+main {
+    margin: 20px;
+    display: flex;
+}
+
+.left {
+    float: left;
+    width: 60%;
+    padding: 10px;
+    text-align: justify;
+}
+
+.right {
+    float: right;
+    width: 40%;
+    padding: 10px;
+    text-align: center;
+}
+
+.right img:nth-child(1) {
+    width: 40%;
+}
+
+.right img:nth-child(2) {
+    width: 40%;
+}
+
+.right img:nth-child(3) {
+    width: 80%;
+}
+
+p,
+ul,
+li {
+    color: rgb(10, 98, 98);
+    font-family: sans-serif;
+    font-size: 16px;
+}
+
+a.external-link {
+    text-decoration: none;
+    color: #008ab0;
+}
+
+.copyright {
+    text-align: center;
+    background-color: #555555;
+    color: #FFFFFF;
+    padding: 20px;
+}
+
+article {
+    display: flex;
+    align-items: center;
+}
+
+article img {
+    flex: 0 0 auto;
+    margin-right: 20px; 
+}
+
+article h2,
+article p,
+article small {
+    margin: 0; 
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
